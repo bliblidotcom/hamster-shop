@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.projectf_ProjectF_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.projectf.projectf.model.Kategori</class>
+    <class>com.projectf.projectf.model.Toko</class>
+    <class>com.projectf.projectf.model.StatusPembelian</class>
+    <class>com.projectf.projectf.model.DetailPenjualan</class>
+    <class>com.projectf.projectf.model.Tipepembayaran</class>
+    <class>com.projectf.projectf.model.Penjualan</class>
+    <class>com.projectf.projectf.model.StatusPenjualan</class>
+    <class>com.projectf.projectf.model.Tipepengiriman</class>
+    <class>com.projectf.projectf.model.Barang</class>
+    <class>com.projectf.projectf.model.DetailPembelian</class>
+    <class>com.projectf.projectf.model.Wishlist</class>
+    <class>com.projectf.projectf.model.Reviewbarang</class>
+    <class>com.projectf.projectf.model.Tiperole</class>
+    <class>com.projectf.projectf.model.Pembelian</class>
+    <class>com.projectf.projectf.model.CartItem</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dborangeshop"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>

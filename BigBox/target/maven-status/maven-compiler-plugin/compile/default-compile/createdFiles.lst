@@ -1,0 +1,4 @@
+com\example\models\Product.class
+com\example\models\Admin.class
+com\example\BigBoxApplication.class
+com\example\models\Category.class
